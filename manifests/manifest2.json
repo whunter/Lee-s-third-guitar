@@ -1,0 +1,148 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://whunter.github.io/Lee's third guitar/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "My third guitar",
+  "metadata" : [ {
+    "description" : [ {
+      "@value" : "These are some pics of the third guitar that I've built.",
+      "@language" : "en"
+    } ]
+  } ],
+  "description" : [ {
+    "@value" : "These are some pics of the third guitar that I've built.",
+    "@language" : "en"
+  } ],
+  "license" : "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "\"My third guitar\" by Lee Hunter is licensed under CC BY NC SA 4.0",
+  "sequences" : [ {
+    "@id" : "http://3d49a368-a79f-451f-ac8a-f1a4c136af97",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://c58cc69c-3c2c-497c-acfe-244249c5f354",
+      "@type" : "sc:Canvas",
+      "label" : "Standing",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://75c9fddc-5b4d-43dd-a943-4a09c3a8be20",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/pxl-20230628-002230096/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/pxl-20230628-002230096",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4032,
+          "width" : 3024
+        },
+        "on" : "http://c58cc69c-3c2c-497c-acfe-244249c5f354"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7fd62eb3-5e82-432e-b43c-3d3583c5add0",
+      "@type" : "sc:Canvas",
+      "label" : "Bare",
+      "height" : 2160,
+      "width" : 3840,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e1cfd8a7-a33e-4d65-b114-c44dad9e4508",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/third_in_progress/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/third_in_progress",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2160,
+          "width" : 3840
+        },
+        "on" : "http://7fd62eb3-5e82-432e-b43c-3d3583c5add0"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://86090a9b-457f-404f-b7df-d7027ebf9d7d",
+      "@type" : "sc:Canvas",
+      "label" : "Bright",
+      "height" : 1934,
+      "width" : 3618,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://172eae68-6432-44ed-9297-39b28373da3f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/pxl-20230118-162402913/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/pxl-20230118-162402913",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1934,
+          "width" : 3618
+        },
+        "on" : "http://86090a9b-457f-404f-b7df-d7027ebf9d7d"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://44a0f771-3666-4dbd-8514-5399103d7516",
+      "@type" : "sc:Canvas",
+      "label" : "Muted",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c17b08ac-6bf4-4893-aa53-acc1836aa48e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/pxl-20230628-014150659/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/pxl-20230628-014150659",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://44a0f771-3666-4dbd-8514-5399103d7516"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://c58cc69c-3c2c-497c-acfe-244249c5f354" ]
+  } ],
+  "viewingDirection" : "left-to-right",
+  "viewingHint" : "paged",
+  "thumbnail" : {
+    "@id" : "http://c58cc69c-3c2c-497c-acfe-244249c5f354"
+  }
+}
